@@ -4820,7 +4820,9 @@ var draggableComponent = Object(external_commonjs_vue_commonjs2_vue_root_Vue_["d
     var _this5 = this;
 
     this.$nextTick(function () {
-      return _this5.componentStructure.updated();
+      var _this5$componentStruc;
+
+      return (_this5$componentStruc = _this5.componentStructure) === null || _this5$componentStruc === void 0 ? void 0 : _this5$componentStruc.updated();
     });
   },
   beforeUnmount: function beforeUnmount() {
